@@ -1,5 +1,5 @@
 # ImageShredder
-Shredding an image with an RNG seeded with the hash of a given password
+Shredding a PNG or BMP image with an RNG seeded with the hash of a given password
 
 Command line interface written in python
 
@@ -7,12 +7,12 @@ Command line interface written in python
 Usage:
 
 Shredded strips with predictable randomization
-  > $ ./shredde.py needShredding.jpg
+  > $ ./shredder.py needShredding.png
 
 Shredded strips of original image will be randomized using the key as a seed
-  > $ ./shredder.py needShredding.jpg -o shredded.jpg -e -k hunter2
+  > $ ./shredder.py needShredding.png -o shredded.png -e -k hunter2
 
 Input a shredded image from above using same key to get back original image
-  > $ ./shredder.py shredded.jpg -o unshredded.jpg -d -k hunter2
+  > $ ./shredder.py shredded.png -o unshredded.png -d -k hunter2
 
 
