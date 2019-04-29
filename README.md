@@ -15,4 +15,7 @@ Shredded strips of original image will be randomized using the key as a seed
 Input a shredded image from above using same key to get back original image
   > $ ./shredder.py shredded.png -o unshredded.png -d -k hunter2
 
+NOTE: Does not work with JPEG images, I believe, due to it's compression when saving and reopening. Will work on a fix for that.
+
+
 
