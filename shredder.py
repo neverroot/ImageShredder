@@ -112,7 +112,7 @@ def main(args):
     canvas.show()
 
     
-    if args.output_file != 'shredder_output.jpg':
+    if args.output_file != 'shredder_output.png':
         print('Image saved to ' + args.output_file)
 
 
