@@ -120,7 +120,7 @@ if __name__ == "__main__":
     #Parses positional and conditional arguments for shredder module
     parser = argparse.ArgumentParser()
     parser.add_argument('imagepath', help='Path of image')
-    parser.add_argument('-o', '--output-file',metavar='',default='shredder_output.jpg',help='path of output file',)
+    parser.add_argument('-o', '--output-file',metavar='',default='shredder_output.png',help='path of output file',)
     parser.add_argument('-k', '--key',metavar='',help='key used to encrypt or decrypt')
     group = parser.add_mutually_exclusive_group()
     group.add_argument('-d','--decrypt',action='store_true',help='decrypts shredded image')
